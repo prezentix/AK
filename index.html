@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogłoszenie - Chcę zostać programistą</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            width: 100%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px 0;
+            width: 100%;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 700;
+        }
+        nav a:hover {
+            background-color: #004494;
+            border-radius: 4px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .sidebar {
+            width: 160px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .sidebar ad {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .portfolio-item {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .portfolio-item h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Ogłoszenie - Chcę zostać programistą
+    </header>
+    <nav>
+        <a href="#about">O mnie</a>
+        <a href="#skills">Umiejętności</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="main-content">
+        <div class="sidebar">
+            <!-- Reklama 1 -->
+            <ad>
+                <img src="https://via.placeholder.com/160x600" alt="Reklama 1">
+            </ad>
+            <!-- Reklama 2 -->
+            <ad>
+                <img src="https://via.placeholder.com/160x600" alt="Reklama 2">
+            </ad>
+        </div>
+        <div class="container">
+            <div id="about" class="section">
+                <h2>O mnie</h2>
+                <div class="photo">
+                    <img src="https://via.placeholder.com/600x400" alt="Twoje zdjęcie">
+                </div>
+                <p>Nazywam się [Twoje Imię i Nazwisko]. Programuję w języku C#. Szukam możliwości rozwijania swoich umiejętności jako programista. Jestem otwarty na wszelkie propozycje pracy lub współpracy.</p>
+            </div>
+            <div id="skills" class="section">
+                <h2>Umiejętności</h2>
+                <p>Posiadam doświadczenie w programowaniu w języku C#. Znam również technologie takie jak HTML, CSS i JavaScript. Pracowałem nad różnymi projektami, które możesz zobaczyć w moim portfolio.</p>
+            </div>
+            <div id="portfolio" class="section">
+                <h2>Portfolio</h2>
+                <div class="portfolio">
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Projekt 1">
+                        <h3>Projekt 1</h3>
+                        <p>Opis projektu 1</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Projekt 2">
+                        <h3>Projekt 2</h3>
+                        <p>Opis projektu 2</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Projekt 3">
+                        <h3>Projekt 3</h3>
+                        <p>Opis projektu 3</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="section">
+                <h2>Skontaktuj się ze mną</h2>
+                <form action="mailto:twojemail@example.com" method="post" enctype="text/plain">
+                    <label for="name">Imię i Nazwisko</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Wiadomość</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </div>
+        <div class="sidebar">
+            <!-- Reklama 3 -->
+            <ad>
+                <img src="https://via.placeholder.com/160x600" alt="Reklama 3">
+            </ad>
+            <!-- Reklama 4 -->
+            <ad>
+                <img src="https://via.placeholder.com/160x600" alt="Reklama 4">
+            </ad>
+        </div>
+    </div>
+</body>
+</html>
